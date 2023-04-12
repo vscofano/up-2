@@ -23,6 +23,60 @@
 * 01.GENERAL STYLE
 * ----------------------------------------------------------------------------------------
 */
+/* logo desktop*/
+.logo-desktop{
+    position: relative;
+    width: 350px;
+    bottom: 450px;
+    opacity: 70%;
+}
+/* end logo desktop*/
+/* background-mobile*/
+#background{
+    display: none;
+}
+@media only screen and (max-width:480px){
+   #background{
+    display: block;
+   }
+   #background{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#background video {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    
+}
+    #home{
+        display:none;
+    }
+    #logo-h1{
+      position: absolute;
+      top: 100px;
+       
+    }
+    .logo-h1{
+        width: 98%;
+        box-shadow: 5px 5px 10px goldenrod;
+        
+    }
+.fundo{
+    width: 100%;
+}
+.logo-desktop{
+    display: none;
+}
+}
+/* end background-mobile*/
 .media-left{
     height: 400px;
     background-color: black;
