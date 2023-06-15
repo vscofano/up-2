@@ -23,6 +23,37 @@
 * 01.GENERAL STYLE
 * ----------------------------------------------------------------------------------------
 */
+
+
+/*Logo TIKTOK*/
+#favcon{
+    width: 100%;
+}
+
+/* botao wpp fixo mobile*/
+#fixed-wpp-mobile{
+    display: none;
+}
+.fixed-wpp-mobile{
+    display: none;
+}
+@media only screen and (max-width: 480px){
+    #fixed-wpp-mobile{
+        display: block;
+       width: 50px;
+       position: fixed;
+        
+    }
+    .fixed-wpp-mobile{
+        display: block;
+        position: absolute;
+        z-index: 9999;
+        right: 70px;
+        top: 800px;
+    
+    }
+}
+
 /* logo desktop*/
 .logo-desktop{
     position: relative;
@@ -84,6 +115,9 @@
 #provasocial{
     width: 100%;
 }
+@media only screen and (max-width:480px){
+    
+}
 @media only screen and (min-width:1400px){
     .botao-wpp{
        margin-left: 550px;
@@ -94,6 +128,7 @@
   position: absolute;
   left: 1250px;
   top: 530px;
+  
   
 }
 #botao-wpp-fixo{
@@ -1704,9 +1739,9 @@ color: #1b2032;}
     border: 1px solid #5D82D1;
 }
 .f_twitter {
-    background: #40BFF5;
-    box-shadow: 0 0 0 0px #40BFF5;
-    border: 1px solid #40BFF5;
+    background: #ffffff;
+    box-shadow: 0 0 0 0px #0f0f0f;
+    border: 1px solid #020202;
 }
 .f_google {
     background: #EB5E4C;
